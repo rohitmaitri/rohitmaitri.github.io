@@ -1,0 +1,25 @@
+language: python
+python: 3.6
+git:
+  submodules: true
+install: pip install -r requirements.txt
+script: 
+- pelican -ds publishconf.py
+- cp -r README.md output/
+
+
+branches:
+  only:
+  - src
+
+deploy:
+  provider: pages
+  local_dir: output
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  target_branch: master
+  fqdn: rohitmaitri.net
+  verbose: true
+  on:
+    branch: src
