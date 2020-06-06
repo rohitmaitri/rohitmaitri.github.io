@@ -7,7 +7,6 @@ script:
 - pelican -ds publishconf.py
 - cp -r README.md output/
 
-
 branches:
   only:
   - src
