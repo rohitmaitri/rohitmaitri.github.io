@@ -1,0 +1,1 @@
+var tipuesearch = {"pages":[{"title":"About","text":"About the author of this theme Profession Basically, I am a Data Scientist now. Spare time Well, I just like running.","tags":"misc","url":"https://rohitmaitri.net/pages/about.html","loc":"https://rohitmaitri.net/pages/about.html"}]};
