@@ -38,12 +38,12 @@ I18N_SUBSITES = {
 }
 
 # logo path, needs to be stored in PATH Setting
-LOGO = '/images/profile_pic.jpg'
+LOGO = '/images/about/profile_pic.jpg'
 
 # special content
 HERO = [
   {
-    'image': '/images/profile_pic.jpg',
+    'image': '/images/nature.jpg',
     # for multilanguage support, create a simple dict
     'title': {
       'en':'Some special content',
@@ -61,13 +61,21 @@ HERO = [
       }
     ]
   }, {
-    'image': '/images/profile_pic.jpg',
+    'image': '/images/nature2.jpg',
     # keep it a string if you dont need multiple languages
     'title': 'Uh, special too',
     # keep it a string if you dont need multiple languages
     'text': 'Keep hero.text and hero.title a string if you dont need multilanguage.',
     'links': []
+  }, {
+    'image': '/images/nature3.jpg',
+    # keep it a string if you dont need multiple languages
+    'title': 'More special',
+    # keep it a string if you dont need multiple languages
+    'text': 'placeholder',
+    'links': []
   }
+
 ]
 # # Feed generation is usually not desired when developing
 # FEED_ALL_ATOM = None
@@ -86,10 +94,10 @@ HERO = [
 SOCIAL = (
   ('Github', 'https://www.github.com/rohitmaitri'),
   ('Linkedin', 'https://www.linkedin.com/in/RohitMaitri'),
+  ('Scholar', 'https://scholar.google.com/citations?user=0ZneiFIAAAAJ&hl=en&oi=ao'),
 )
 
 ABOUT = {
-  'image': '/images/about/profile_pic.jpeg',
   'mail': 'rohitmaitri@gmail.com',
   # keep it a string if you dont need multiple languages
   'text': {

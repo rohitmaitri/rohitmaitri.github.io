@@ -27,9 +27,5 @@ Basically, I am a Data Scientist now.
 
 Spare time
 ----------
-.. container:: float-right
 
-    .. image:: /images/about/profile_pic.jpg
-        :width: 250px
-
-Well, I just like running.
+I like running, swimming and squash.

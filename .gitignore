@@ -8,3 +8,12 @@ __pycache__/
 # Repository related folders
 output/*
 *.pid
+
+# Ignore mac files
+.DS_Store
+
+# Ignore vs code folder
+.vscode
+
+# Ignore python versions
+.python-version
